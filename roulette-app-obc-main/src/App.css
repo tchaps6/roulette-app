@@ -1,0 +1,29 @@
+body{
+  background-image: url("./casino.jpg");
+  background-position: center;
+}
+.bet-button{
+  width: 350px!important;
+  font-weight: bold;
+}
+.result-row{
+  width: 350px!important;
+  display: flex;
+  align-items: center;
+}
+.wallet-text{
+  display: flex;
+  width: 350px;
+  word-wrap: break-word;
+}
+.btn-pick{
+  background-color: gray;
+}
+.selected-bet{
+  background-color: rgb(79, 89, 236);
+  color:white;
+  font-weight: bold;
+}
+.w-35{
+  width: 350px;
+}
