@@ -3,7 +3,7 @@ pragma solidity ^0.8.7;
 
 import "@chainlink/contracts/src/v0.8/VRFConsumerBase.sol";
 
- 
+ s
 contract RandomNumberConsumer is VRFConsumerBase {
     
     bytes32 internal keyHash;

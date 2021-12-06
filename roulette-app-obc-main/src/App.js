@@ -18,10 +18,10 @@ function App() {
   useEffect(()=>{
     console.log(betLanded)
     if(betLanded==betNumber){
-      setBetStatus("WIN!");
+      setBetStatus(" WIN!");
     }
     else if (betLanded){
-      setBetStatus("Loose");
+      setBetStatus(" Lost");
     }
 
   },[betLanded])
